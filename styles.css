@@ -142,7 +142,7 @@ body {
 }
 .herovectorBackground4{
     position: absolute;
-    bottom: 0%;
+    bottom: -8%;
     right:0;
     width: 50%;
     height: 50%;
@@ -168,6 +168,7 @@ body {
     /* margin-left: 20px;  */
     margin-right: 150px;
     margin-bottom: 130px;
+    z-index: 1;
 }
 .hero-content h1 {
     font-size: 40px;
@@ -190,11 +191,11 @@ body {
     color: white;
     padding: 10px 30px;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
     margin-top: 55px;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     font-family: 'Poppins', sans-serif; /* Ensure font is applied here too */
 }
 
@@ -332,19 +333,19 @@ background: transparent; /* Set background to transparent */
 
 .vectorBackground1{
     position: absolute;
-    top:-16%;
-    left: -20%;
-    width: 50%;
-    height: 50%;
+    top: -1%;
+    left: -1%;
+    width: 20%;
+    height: 20%;
     z-index: -1;
 }
 
 .Vectorbackground2 {
     position: absolute;
-    top:-10%;
+    top: 2%;
     right: 0;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     z-index: -1; /* Ensure it stays behind the content */
 }
 
@@ -372,9 +373,9 @@ background: transparent; /* Set background to transparent */
 .ovsection-title {
     text-align: left;
     font-size: 2.5rem;
-    margin-top: 150px;
+    margin-top: 138px;
     margin-bottom: 40px;
-    margin-left: 240px;
+    margin-left: 198px;
     color: #007ad9;
     font-family: 'Poppins', sans-serif; /* Ensure font is applied here too */
 }
@@ -411,6 +412,7 @@ background: transparent; /* Set background to transparent */
 }
 .ovcard-text {
     flex: 1;
+    margin-top: 90px;
 }
 
 .ovcard h3 {
